@@ -50,8 +50,8 @@ password: *czadmin*
 
 ===7. Post install===
 ----
-  #Delete cz.sql
-  #Set permissions of configuration.php to 700 i.e chmod 700 configuration.php
+  # Delete cz.sql
+  # Set permissions of configuration.php to `700` i.e `chmod 700 configuration.php`
 
 ----
 Report any bugs and improvements to: *sureronald@gmail.com*
