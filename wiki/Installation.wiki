@@ -4,9 +4,9 @@
 
 ===1. Make sure you have the following installed and are in operation===
 ----
-  *Apache webserver version 2.0 configured with PHP 5.3
-  *Mysql database >= 5.0
-  *Required PHP support: gd,zip and zlib
+  * Apache webserver version 2.0 configured with PHP 5.3
+  * Mysql database >= 5.0
+  * Required PHP support: gd, zip and zlib
 
 _This application works well on xampp both on windows and linux installations_
 
@@ -55,6 +55,7 @@ password: *czadmin*
 
 ----
 Report any bugs and improvements to: *sureronald@gmail.com*
+If this installation tutorial works for you, let me know. You can drop a comment!
 This is work in progress so an automated installer is coming soon!!
 I'm always available for chat during east african working hours, You can drop something
 by.
