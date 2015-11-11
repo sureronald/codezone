@@ -1,0 +1,15 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~SYSTEM MESSAGES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#system-messages { width: 100%;}
+p.system-mesages { text-indent: 20px; font-weight:bold; font-size: 12px;}
+.system-messages-a:visited,.system-messages-a:link { color:blue; text-decoration:underline}
+.system-messages-a:hover { text-decoration:none; }
+#system-error { border-top: 1px solid red; border-bottom: 1px solid red; }
+#system-error span { background-image: url(images/stop.png);padding: 5px 5px 5px 17px; margin-right: 30px;background-repeat: no-repeat; }
+#system-success { border-top: 1px solid green; border-bottom: 1px solid green; }
+#system-success span { background-image: url(images/success.png); padding: 5px 5px 5px 17px; margin-right: 30px;background-repeat: no-repeat; }
+#system-warning { border-top: 1px solid yellow; border-bottom: 1px solid yellow; }
+#system-warning span { background-image: url(images/warning.png); padding: 5px 5px 5px 17px; margin-right: 30px;background-repeat: no-repeat; }

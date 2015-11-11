@@ -1,0 +1,376 @@
+/**
+ * APPLICATION STYLES
+ *
+ */
+
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~ECJ LAYOUT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+html { height: 100%; margin-bottom: 0px;}
+body { font-family: verdana,arial; color: #000; background: #fff url(images/bg.png) repeat-x; }
+#all { min-width: 900px; padding-bottom: 50px; /* border: 1px solid #ccc;  */min-height: 450px; }
+#wrapper { }
+#left { float: left; width: 30%; padding:3px; }
+#component { float: left; width: 65%; padding-top: 10px; padding-left: 5px; }
+#clear { clear: both; }
+#footer { width: 30%; position:fixed; z-index:9999; left:0; bottom:0; margin-left: 10px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~ECJ DIV HEADER ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+/*#header {}*/
+#logo { background: transparent url(images/cz-logo.png) no-repeat; padding-left: 128px; padding-bottom: 56px; margin-bottom: -10px; margin-top: 0px;  }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~ECJ GENERAL ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+a { font-size:10px; text-decoration:underline; }
+a:hover {  text-decoration:none; }
+.content-header { font-size: 14px; font-weight: bold; color: #27537a; margin-left: 100px;}
+a.mainmenu-admin-link { text-decoration: none; }
+a.mainmenu-admin-link:hover { text-decoration: underline; }
+span.users-online-info { font-size: 10px; font-weight: lighter; color: #000; }
+a.users-online-alink { text-decoration: none; font-size: 10px; font-weight: lighter; color: purple; }
+a.users-online-alink:hover { text-decoration: underline; }
+.error { color:red; }
+span.header { color: #aaa; font-weight: bold; }
+span.size10 { font-size: 10px; }
+span.light1 { color: #aaa; font-weight: bold; }
+span.dark1 { color: #555; font-weight: bold; }
+span.navy10 { color: navy; font-weight: bold; font-size: 10px; }
+span.green10 { color: green; font-weight: bold; font-size: 10px; }
+span.notify { color: green; font-weight: lighter; background-color: #FFFF98; }
+span.notify_success { color: green; font-weight: bold; font-size: 12px; background-color: #FFFF98; }
+span.notify_error { color: red; font-weight: bold; font-size: 12px; background-color: #FFFF98; }
+.dark { color: #555; font-weight: bold; }
+span.light10 { color: #aaa; font-weight: bold; font-size: 10px; }
+span.dark10 { color: #555; font-weight: bold; font-size: 10px; }
+tr.tr_data_large { background: url(images/tr_bg_large.png) no-repeat;height: 20px;}
+tr.tr_data_small { background: url(images/tr_bg_small.png) no-repeat; }
+a.no_styles { text-decoration: none; }
+.font_size_10 { font-size: 10px; }
+#loading-bar { display: none; }
+.light-hr { color: #bbb; margin-bottom: 30px; }
+a.bold { font-weight: bold; text-decoration: none; color: blue; font-size: 12px; }
+a.bold:hover { color: #51EBFF; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ECM PAGINATION LINK STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+p.pagination_links { font-weight: bold; }
+p.pagination_links .active { font-size:11px; text-decoration: none; color: #3D6AFF; }
+p.pagination_links .dead { font-size:11px; color: gray; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~ECJ SLIDER MENU PANEL STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.pane-sliders {margin: 3px;padding: 2px;color: #666;cursor: pointer;}
+.pane-sliders .jpane-slider   { border: 1px solid #ccc;border-top-width: 0px; margin-bottom: 3px; }
+.pane-sliders h3 { background: url(images/h3-bg.png) repeat-x; color: #fff; font-size: 12px; cursor: pointer;margin: 5px 0px 0px 0px; border: 1px solid #ccc; border-bottom-width: 0px; padding: 3px 0px 3px 0px; }
+.pane-sliders .content { background: #f6f6f6; }
+.jpane-toggler span { background: transparent url(images/caret-closed.png) 5px 50% no-repeat; padding-left: 20px;}
+.jpane-toggler-down span { background: transparent url(images/caret-open.png) 5px 50% no-repeat; padding-left: 20px; color: #666;}
+.jpane-toggler-down {  border-bottom: 1px solid red; color: white; background-color: #000; }
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~ECJ MODLOGIN FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.modlogin { font-size: 12px; }
+.modlogin-form-input { border:1px solid #5B5833; font-size:10px;}
+.modlogin a { text-decoration:none; color:blue; }
+.modlogin a:hover { text-decoration:underline; }
+.logout-a { text-decoration: none; color: blue; font-size:12px; }
+.logout-a:hover { text-decoration: underline; color: red; }
+.modlogin-span { font-size: 10px; }
+.modlogin-a { text-decoration:none; color: #444; }
+.modlogin-a:hover { text-decoration:underline; }
+#login-form-submit { padding: 2px 10px 2px 10px; }
+ul.login-form { list-style:none; padding-left:50px; }
+ul.login-form li { margin-bottom: 10px; }
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~ECJ REGISTRATION FORM~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.reg-form h4 { font-size: 14px; color: #fff; background-color: #000; text-indent: 50px; }
+input.button-submit { color: #fff; background-color:#000; font-size: 12px; font-weight:lighter; border-style: none; }
+.reg-form-field-label-text { font-weight:lighter; color: #333; } 
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~FRONT PAGE TEXT STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#frontpage-text,#showstories { font-size:12px; color: #000; }
+
+#frontpage-text a { font-size:12px; color:blue; text-decoration:underline; }
+#frontpage-text a:hover { text-decoration:none; }
+#frontpage-text hr { color: #ccc; } 
+h3.news_article_title { margin-bottom: -4px; }
+h3.news_article_title span { background-image: url(images/articles.jpg); padding-right: 30px; padding-bottom: 10px; }
+p.article_details { text-align: right; font-weight: bold; color: #444; }
+span.match-timer-info { color: #474040; font-size: 14px; font-weight: bold; margin-bottom: 5px; }
+span.countdown-timer-text { color: #474040; }
+.match-timer-a { text-decoration: none; font-size: 14px; color: #474040; }
+.match-timer-a:hover { text-decoration: underline; }
+h3.active_match { color: red; font-style: italic; margin-bottom: -9px; }
+hr.h3-bottom-line { color: #000; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~HORIZONTAL NAVIGATION BAR~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+/*.horizontal-nav-bar { list-style: none;margin:0;padding:0; }
+.horizontal-nav-bar li {float:left;width:100px;margin:0;padding:0;text-align:center;}
+.horizontal-nav-bar li a { color: blue; text-decoration:none; font-size: 11px; }
+.clear { clear:left; }*/
+#nav-bar-container {  }
+.horizontal-nav-bar ul { list-style:none; }
+.horizontal-nav-bar li { background: transparent url(images/menu-bg.png) no-repeat; list-style-type:none; float:left; width:125px; margin:0; padding:0; text-align:center;}
+.horizontal-nav-bar li a { color: #800080; display:block; padding:5px 10px; height:100%; text-decoration:none; border-right:1px solid #FFF; font-size:12px; font-weight: bold;}
+/*.horizontal-nav-bar li a {background:url('images/bg.jpg') repeat 0 0;}*/
+.horizontal-nav-bar li a:hover { color: #000; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~MAIN MENU UPCOMING MATCH STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+table.mainmenu-match-info { font-size: 10px; padding-bottom:5px; color:#000; padding: 3px; border-bottom: 1px solid #ccc;}
+table.mainmenu-match-info tr:hover { background-color: #FEFFC6; }
+span.match-label { font-weight: bold; }
+span.match-title { color: blue; font-weight: bold; }
+span.match-important { color: red; }
+span.no-match { color: blue; font-size: 14px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~MAIN MENU USER INFO STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+img.user_avatar { border: 3px solid #bbb; padding: 2px; }
+table.mainmenu-user-info { font-size: 10px; color:#000; }
+span.users { font-weight:bold; }
+span.user-last-visit { color: gray; }
+span.user-ranking { color: red; font-weight: bold; }
+span.user-points { color: purple; font-weight: bold; text-decoration: underline; }
+a.user-view-profile { font-weight: bold; text-decoration: underline; }
+a.user-view-profile:hover { text-decoration: none; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~ DIV FOOTER~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#footer { font-size:10px; color: #565656; text-align: center; border-top: 1px solid #ccc; font-weight: lighter;}
+#hr_footer {color:#ccc; }
+#footer a { text-decoration:none; color:blue; font-size: 10px; color: #565656; }
+#footer a:hover { color: #000; text-decoration:underline; }
+/*.sureronald_copyright_tooltip { font-size: 12px; font-weight: bold; }*/
+/*#footer a.blog_link { padding-left: 60px; }
+#footer .copyright { background: url(images/my_brand.png) no-repeat; padding-left: 60px; padding-bottom: 50px;}*/
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~ARENA APPLET LAYOUT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#arena-applet-container { margin: 3px 3px 3px 3px; }
+#arena-applet-left { float: left; width: 70%; }
+#arena-applet-right { float: left; margin-left: 10px; width: 25%; }
+#arena-applet-submission-form { display: none; border: 1px solid #27537a;  }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~ARENA APPLET STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#arena-applet-left { font-size: 12px; font-weight: lighter; }
+h3.arena-match-title { color: #27537a; font-style: italic; margin-bottom: -9px; }
+#arena-applet-submission-form { border: 1px solid #ccc; }
+span.arena-general { font-size: 12px; font-weight: bold; color:#27537a;}
+h4.contact-link  { color: #6A82EC; font-size: 10px; border: 1px solid #ccc; text-align: center; padding: 5px 2px 0px 2px;  }
+h4.contact-link a {text-decoration:none; }
+h4.contact-link a:hover {  color: blue; }
+span.timer-rem-time { font-size:10px; color:#7C7777; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~ARENA APPLET PROBLEM STATEMENT FILES~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#problem-statement { font-size: 12px; }
+.sample-data { margin-left: 50px; border: 1px solid black; background-color: #ccc; padding-left: 50px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~ARENA APPLET LIVE SCOREBOARD~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#scoreboard { font-size: 12px;}
+tr.lighblue { background-color:#C1E3F3; }
+tr.shadedwhite { background-color: #F5F5F5; }
+td.nickname { color:#10107B; }
+td.nickname a { text-decoration: none; color:#10107B; font-size: 12px; }
+td.nickname a:hover { text-decoration: underline; }
+td.points { color:#261818; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~ADMINISTRATION SCREEN STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+div.admin-panel { font-size: 12px;  }
+.admin-panel-tabs { background: transparent; }
+.admin-panel-fieldset { border: 1px solid #ccc; }
+.admin-panel-legend { font-weight: bold; }
+/*FORMS*/
+.form-field-label-text { color: gray; font-weight: bold; font-size: 10px; }
+td.form-field-label { background-color: #eee; width: 200px; }
+.admin-panel-text-input,.admin-panel-textarea { border: 1px solid gray; width: 180px; font-size: 12px;}
+.admin-panel-select { border: 1px solid gray; font-size: 10px; }
+.admin-panel-text-input:hover,.admin-panel-text-input:focus,.admin-panel-textarea:hover,.admin-panel-textarea:focus .admin-panel-textarea-1 { background-color: #FEFFC6; }
+.admin-panel-submit-button { color: #fff; background-color:#000; font-size: 12px; font-weight:lighter; border: 2px solid #aaa; }
+.admin-panel-submit-button:hover { border: 2px solid #7C90FF; }
+.admin-panel-textarea-1 { width: 100%; height: 150px; font-size: 12px; border: 1px solid #ccc; }
+.admin-panel-button { font-size: 10px; }
+.source_code_view { background-color: #eee; border: 1px solid #888; padding-left: 25px; padding-top:10px; min-width: 95%; min-height: 250px; }
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~ECM USERS ADMIN STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#user_admin_panel { font-size: 10px; }
+/*#user_admin_panel .user_row_details { }*/
+.user_row_details tr.header { font-weight: bold; color: #001B94; }
+.user_row_details tr.user_row_data { background: url(images/tr_bg_large.png) no-repeat; }
+.user_row_details tr.story_row_data { background: url(images/tr_bg_large.png) no-repeat; }
+.user_row_details td.greyish { color: #61656C; }
+.user_row_details a { text-decoration: none; }
+.user_row_details a:hover { text-decoration: underline; }
+span.acc_active { color: green; }
+span.acc_disabled { color: red; }
+span.acc_inactive { color: #D4BF36; }
+span.acc_unvisited { color: #000; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~USER COLOR STYLES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+.admin_orange { color: #FF9558;}
+.coder_red { color: red; font-weight: bold;}
+.coder_yellow { color: #FFCD04; font-weight: bold; }
+.coder_blue {color: blue; font-weight: bold;}
+.coder_green {color: green; font-weight: bold;}
+.coder_gray {color: gray; font-weight: bold;}
+.coder_black {color: black; font-weight: lighter;}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~FULL SCOREBOARD VIEW STYLES~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#scoreboard, #scoreboard a { font-size: 12px;}
+#scoreboard table { text-align: right; }
+#scoreboard tr.theader { font-weight: bold; }
+#scoreboard p { margin-bottom: -3px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ECM PRACTICE MODE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#past_matches_list table,#past_matches_list a { font-size: 12px; }
+#past_matches_list tr.theader { font-weight: bold; }
+#past_matches_list p { font-size: 12px; }
+#match_analysis { font-size: 12px; }
+#match_analysis .code_block { width: 80%; background-color: #eee; border: 1px solid #888; padding-left: 70px; margin: auto; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ECM SCHEDULE~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#schedule, #schedule a { font-size: 12px; }
+#schedule tr.theader { font-weight: bold; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ALGORITHM STATS IN ACCORDION MENU~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#algorithm_stats { color: #000; font-size: 10px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~ALGORITHM STATS IN ACCORDION MENU~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#mod_users_online { font-size: 10px; text-align: left; padding-left: 20px; padding-top: 10px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ECM HELP~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#help ,#help a { font-size: 12px; }
+#help h4 { color: blue; margin-bottom: -8px; }
+#help .coder_colors { display: block; width: 250px; color: #fff; text-align: center; font-weight: bold; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ECM FAQs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#faqs { font-size: 12px; }
+#faqs a { font-size: 12px; }
+#faqs p { margin-bottom: -5px; } 
+#faqs .q { color: #000; }
+#faqs .a { color: blue; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ECM HALL OF FAME~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#halloffame { font-size: 12px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ECM VIEW PROFILE~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#view_profile { font-size: 10px; }
+#view_profile ul { padding-left: 50px; }
+p.notify { color: red; }
+#view_profile li.label,li.no_style { list-style-type: none; }
+li.label { color: #333; margin-top: 5px; }
+li.value { color: navy; font-size: 22px; font-weight: bold; }
+li.value1 { color: #FFBF2A; font-size: 22px; font-weight: bold; }
+li.value2 { color: #840000; font-size: 22px; font-weight: bold; }
+#view_profile .bg_grey { background: #eee; width: 300px; border: 1px solid #aaa; margin-top: 5px; padding: 4px; }
+a.update_profile_link { text-decoration: none; font-size: 14px; font-weight: bold; }
+a.update_profile_link:hover { text-decoration: underline; }
+ul.profile_matches li { list-style-image: url(images/arrow.gif); }
+#coder_history { width: 100%; height: 350px; border: 1px solid #ccc; margin-left: 50px; margin-bottom: 50px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~ECM UPDATE PROFILE~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#update_profile { font-size: 10px; }
+#update_profile ul { padding-left: 0px; }
+#update_profile li { list-style-type: none; height: 35px;}
+#update_profile li.form_label { color: #333; height: 12px; margin-top: 5px; }
+#update_profile textarea { height: 30px;  width: 400px; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~LISTING OF ALL CODERS~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#coders_list { color: #000; font-size: 12px; }
+#coders_list a { font-size: 12px; }
+#coders_list .light_blue { color: #5F77FF; }
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~ECM OFFLINE STYLES~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+#offline-container { border: 1px solid #ccc; width: 60%; margin-top: 8%; }
+div.offline_message { font-size: 12px; color: #555; background-color: #F0F0F0; border: 1px solid #000; width: 70%; }
+#offline-container p { font-size: 12px; }
+#offline-container a { color: blue; text-decoration: none; font-size: 12px; }
+#offline-container a:hover { text-decoration: underline; }

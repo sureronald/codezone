@@ -1,0 +1,10 @@
+/**STYLING FOR THE SUBMISSION FORM CONTENT LOADED IN COLORBOX**/
+html { height: 100%; margin-bottom: 0px;}
+body { font-family: verdana,arial; color: #000; }
+#arena-applet-submission-form { font-size: 10px; }
+h3.content-header { font-size: 12px; text-align:center; margin-bottom: 5px;  }
+.form-field-label-text { color: gray; font-weight: bold; font-size: 10px; }
+td.form-field-label { background-color: #eee; width: 200px; }
+.admin-panel-text-input,.admin-panel-textarea { border: 1px solid gray; width: 250px; font-size: 10px; }
+span.submission-timer { font-size: 10px; margin-bottom: 3px; }
+.show { display: inline; }
