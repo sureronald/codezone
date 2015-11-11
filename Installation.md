@@ -1,0 +1,78 @@
+# Installation instructions for CodeZone match arena #
+
+
+### 1. Make sure you have the following installed and are in operation ###
+
+---
+
+  * Apache webserver version 2.0 configured with PHP 5.3
+  * Mysql database >= 5.0
+  * Required PHP support: gd, zip and zlib
+
+_This application works well on xampp both on windows and linux installations_
+
+### 2. Uncompress ###
+
+---
+
+Uncompress the CZ archive and place it in the root directory of your webserver e.g /var/www/ on ubuntu or C:\wamp\www on windows
+
+### 3. Create a new database. ###
+
+---
+
+Create a new database Call it cz or any other name you like. Upload or import (if using phpmyadmin) the
+cz.sql database structure located at the top level directory of the cz folder you just extracted.
+**Example commands:**
+```
+mysqladmin -u root -p create cz //Creates a new database called cz
+cat cz.sql | mysql -u root -p cz //Load tables to the newly created database cz
+```
+
+### 4. Now it's time to edit configuration.php ###
+
+---
+
+Now it's time to edit `configuration.php` in the cz folder. Under the section database settings, set the variables
+```
+$db_user='your database user name';
+$db_pass='your database password';
+$db_name='the database name'; //In our case it is cz
+```
+with the appropriate values.
+
+### 5. Set permissions of the cz root folder ###
+
+---
+
+Set permissions of the cz root folder as follows if you are using linux
+```
+chmod -R 755 cz/
+chown -R www-data:www-data cz/
+```
+
+### 6. Launch time!! ###
+
+---
+
+Launch time!! go to your browser and type: http://localhost/cz/ . You should see the homepage. You can login as:
+username: **admin**
+password: **czadmin**
+
+### 7. Post install ###
+
+---
+
+  1. Delete cz.sql
+  1. Set permissions of configuration.php to `700` i.e `chmod 700 configuration.php`
+
+
+---
+
+Report any bugs and improvements to: **sureronald@gmail.com**
+If this installation tutorial works for you, let me know. You can drop a comment!
+This is work in progress so an automated installer is coming soon!!
+I'm always available for chat during east african working hours, You can drop something
+by.
+
+Happy times folks!
